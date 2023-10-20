@@ -1,0 +1,472 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css\index.css' %}">
+    <title>MyBank</title>
+    <link rel="icon" type="image/x-icon" href="{% static 'img\MyBank_Logo.png' %}">
+
+</head>
+
+<body>
+    <!-- Header Section Starts Here-->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo"><img src="{% static 'img\MyBank_Logo.png' %}" alt="logo"></div>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#All_cust">View All Customers</a></li>
+            <li><a href="#loans">MyBank Loan</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact Us</a></li>
+            <li><a href="#Help">Help</a></li>
+        </ul>
+    </nav>
+    <div>
+
+        <!-- This is Home page of my bank website  -->
+        <div id="Home">
+
+            <div class="topbox" style="margin-top: 80px;">
+                <b>
+                    <p class="para1">If showness is observed during Login Page loading, plaese refresh the page for
+                        better experience.
+                    </p><br>
+                    <p>MyBank never asks for confidential information such as PIN and OTP from customers. Any such
+                        call
+                        can be made only by a fruadester. Please do not share personal information!!</p>
+                </b>
+            </div>
+            <div class="welcome">
+                <h2 class="heading">
+                    <marquee>Welcome to MyBank - Where Your Financial Dreams Take
+                        Flight!</marquee>
+                </h2>
+            </div>
+
+            <p style="margin-left: 50px; margin-right: 20px;">At MyBank, we understand that your financial well-being is
+                the cornerstone of a secure and fulfilling
+                life. That’s why we're dedicated to providing you with not just banking services, but a
+                partnership
+                in
+                your journey to prosperity. With a legacy of trust and excellence, MyBank stands as your reliable
+                financial companion, committed to empowering you with seamless banking solutions tailored to your
+                needs.
+            </p>
+
+            <div style="display: flex; align-items: center;">
+                <span style="margin-right: 20px;">
+                    <img src="{% static 'img\security_image.webp' %}" alt="A Image"
+                        style="width: 400px; height: 400px; padding: 3px;">
+
+                </span>
+
+                <span>
+                    <h3 class=" heading">Why Choose MyBank?</h3>
+                    <p>
+                    <h4>Trust and Security:</h4> Your trust is our most valuable asset. MyBank employs cutting-edge
+                    security measures to ensure your transactions and personal information are always safeguarded.</p>
+
+                    <p>
+                    <h4>Innovative Services:</h4> Experience banking like never before with our range of innovative
+                    services. From easy online banking to mobile apps that bring the bank to your fingertips, we're
+                    dedicated to making your banking experience convenient and efficient.</p>
+
+                    <p>
+                    <h4>Personalized Solutions:</h4> We understand that one size doesn’t fit all. Our team of experts is
+                    here to understand your unique financial goals and offer personalized solutions that help you
+                    achieve them. Whether you're planning for your child's education, saving for your dream home, or
+                    investing for your retirement, we tailor our services to meet your individual needs.</p>
+                </span>
+            </div>
+            <div style="margin-left: 50px; margin-right: 20px">
+                <p>
+                <h4>Community-Oriented:</h4> MyBank isn’t just a bank; we're an integral part of the community. We
+                believe in giving back and supporting local initiatives that make our neighborhoods thrive. By
+                banking with us, you contribute to these community-driven efforts, making a positive impact where it
+                matters the most.</p>
+
+                <p>
+                <h4>Exceptional Customer Support:</h4> At MyBank, your satisfaction is our priority. Our dedicated
+                customer support team is available 24/7 to assist you with any banking inquiries or concerns you may
+                have. Whether you prefer phone, email, or in-person assistance, we're here to help whenever you need
+                us.</p>
+
+                <p></p>
+                <h4>Financial Education:</h4> We believe in empowering our customers with knowledge. MyBank offers a
+                wealth of resources, workshops, and seminars to enhance your financial literacy. Whether you're a
+                beginner looking to understand the basics of budgeting or a seasoned investor exploring advanced
+                investment strategies, we provide the educational tools you need to make informed financial
+                decisions50px
+                </p>
+                <p>
+                <h4>Global Accessibility:</h4> MyBank is not confined by borders. With our global banking services,
+                you can access your accounts and manage your finances securely from anywhere in the world. Whether
+                you're traveling, living abroad, or conducting international business, MyBank ensures that your
+                banking experience remains seamless and hassle-free.</p>
+            </div>
+
+            <!-- This is Services page of my bank website  -->
+            <div id=" Services" style="margin-left: 50px;">
+                <h3 class="heading">Our Services:</h3>
+                <p></p>
+                <h4>Savings and Checking Accounts:</h4>
+                Begin your financial journey with confidence, thanks to MyBank's diverse array of savings and
+                checking accounts meticulously crafted to cater to various lifestyles and financial goals.
+                Whether
+                you're saving for a rainy day, planning for your child's education, or simply managing
+                day-to-day
+                expenses, our accounts provide the foundation for your financial stability.
+                </p>
+                <p>
+                <h4>Loans and Mortgages:</h4>
+                Realize your aspirations effortlessly with MyBank's flexible loan and mortgage options. Whether
+                you're envisioning your dream home, launching a business venture, or investing in higher
+                education, our tailored financial solutions can transform your dreams into tangible
+                achievements. We understand that each financial need is unique, and our experts are here to
+                guide you through every step of the borrowing process, ensuring your success.
+                </p>
+            </div>
+
+            <div style="margin-left: 50px; margin-right: 50px;">
+                <div style="display: flex; align-items: center;">
+                    <span style="margin-left: 50px; margin-right: 50px;">
+                        <p>
+                        <h4>24/7 Customer Support:</h4>
+                        Need assistance, anytime, anywhere? Our devoted customer support team operates round the
+                        clock,
+                        365 days a year, to promptly address your inquiries and concerns. Whether you have a
+                        question
+                        about your account, need guidance on financial planning, or require immediate assistance,
+                        our
+                        knowledgeable and friendly representatives are just a call or click away. Your peace of mind
+                        is
+                        our priority.
+                        </p>
+                    </span>
+                    <span style="margin-right: 50px;">
+                        <img src="{% static 'img\customer_support.png' %}" alt="Services Image 1" class="Services2"
+                            style="width: 250px; height: 250px;">
+                    </span>
+                </div>
+
+                <div style="display: flex; align-items: center;">
+                    <span>
+                        <img src="{% static 'img\services2.png' %}" alt="Services Image 2" class="Services2">
+                    </span>
+
+                    <span style="margin-left: 100px; margin-right: 100px; padding: 5px;">
+                        <h4 style="padding: 5px;">Investment Solutions:</h4>
+                        At MyBank, we don't just safeguard your wealth; we help it flourish. Benefit from our
+                        seasoned
+                        investment guidance and explore a wide range of investment products designed to align
+                        with
+                        your
+                        risk tolerance and financial objectives. Our expert advisors provide personalized
+                        strategies,
+                        ensuring your investments are not only secure but also optimized for growth. With
+                        MyBank,
+                        your
+                        financial future is in capable hands.
+                        </p>
+                        <p>
+
+                    </span>
+                </div>
+                <span>
+                    <p>
+                    <h4 style="padding: 5px;">Join MyBank Today:</h4>
+                    Embark on a transformative journey toward financial prosperity by joining MyBank today.
+                    We
+                    are
+                    more than just a financial institution; we are your steadfast partner in building a
+                    secure
+                    and
+                    prosperous future. With MyBank, your dreams have no limits. Let us navigate the
+                    complexitie;
+                    of
+                    finance together, empowering you to achieve your goals and aspirations.
+                    </p>
+                </span>
+                <div style="display: flex; align-items: center;">
+                    <span>
+                        <img src="{% static 'img\hand_holding.jpg' %}" alt="Services Image" class="Services3">
+                    </span>
+                    <span>
+                        <p style="margin-left: 100px; margin-right: 100px;">
+                        <h4>Your Dreams, Our Commitment:</h4>
+                        At MyBank, we are deeply committed to realizing your dreams. Our comprehensive suite of
+                        services, expert guidance, and unwavering support are dedicated to your success. Your
+                        financial
+                        goals are not just objectives; they are promises waiting to be fulfilled. MyBank stands as
+                        your
+                        trusted financial partner, devoted to making those promises a reality. With us by your side,
+                        your financial future is brighter and more promising than ever before.
+                        </p>
+                    </span>
+
+                </div>
+            </div>
+
+            <!-- This is All Customer page of my bank website  -->
+            <div id="All_cust" style="display: flex; align-items: center;">
+                <span style="margin-left: 10%;">
+                    <h3 class="heading">View All Customers:</h3>
+                </span>
+
+                <span style="margin-left: 30%;">
+                    <input type="text" placeholder="Name">
+                    <button class="btn-sm">Search</button>
+                </span>
+
+            </div>
+            <table style="margin-left: 10%;">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for user in users %}
+                    <tr>
+                        <td>{{ users.name }}</td>
+                        <td>{{ users.amount }}</td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="2">No users found.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="loans" style="margin-left: 20px;">
+            <h3 class="heading">MyBank Loans: Your Pathway to
+                Financial Freedom</h3>
+            <p style="margin-left: 20px;">Discover boundless opportunities with MyBank Loans, your
+                steadfast
+                companion in realizing
+                your financial aspirations. At MyBank, we recognize that life's pursuits often
+                demand
+                financial resources. Whether you're envisioning a new home, plotting an exotic
+                vacation,
+                or
+                preparing for unexpected expenses, our comprehensive array of loan products is
+                meticulously
+                crafted to transform your dreams into tangible reality.</p>
+
+            <h3 class="heading">Why Entrust Your Financial Journey to MyBank Loans?</h3>
+
+            <p>Competitive Interest Rates: MyBank stands at the forefront of financial empowerment,
+                offering
+                loans with competitive interest rates. We firmly believe in transparency, ensuring
+                that
+                you
+                are always informed about the costs involved, enabling you to make well-informed
+                decisions.
+            </p>
+
+            <p>Flexible Repayment Options: Your financial journey is unique, and so should be your
+                loan.
+                MyBank Loans presents you with a spectrum of flexible repayment options. Tailor your
+                loan to
+                align perfectly with your financial situation, choosing from diverse tenures and
+                repayment
+                plans. This flexibility empowers you to manage your loan effortlessly, giving you
+                peace
+                of
+                mind.</p>
+
+            <p>Quick and Seamless Approval Process: We comprehend the urgency that financial matters
+                often
+                entail. MyBank Loans is committed to a streamlined approval process, ensuring swift
+                turnaround times. Your need for funds is met promptly, allowing you to seize
+                opportunities
+                without delay.</p>
+
+
+            <p>Dedicated Customer Support: Your satisfaction is our priority. Our dedicated team of
+                seasoned
+                professionals is available around the clock to assist you at every step of your loan
+                journey. Whether you have a query or require assistance, we are just a phone call or
+                email
+                away. Expect nothing less than exceptional service tailored to your needs.</p>
+
+            <p>Financial Expertise You Can Trust: With MyBank Loans, you're not just getting a loan;
+                you're
+                gaining a trustworthy partner dedicated to your financial success. Our experts are
+                committed
+                to providing personalized guidance, helping you make informed decisions that pave
+                the
+                way
+                for a secure financial future.</p>
+
+
+            <p>Embark on your path to financial freedom with MyBank Loans. We don't just offer
+                loans; we
+                offer
+                a pathway to a brighter, more secure future. Your dreams are our mission, and we are
+                here to
+                support you every step of the way.</p>
+        </div>
+
+        <p class="loan_sec">
+            <marquee>Ready to turn your aspirations into achievements? Contact us today and let
+                MyBank Loans be
+                your
+                guiding light toward a prosperous tomorrow.</marquee>
+        </p>
+
+
+
+
+        <div>
+            <!-- This is About page of my bank website  -->
+            <div id="About">
+                <h3 class="heading">About MyBank</h3>
+                <p>
+                    MyBank, where financial aspirations meet unwavering commitment. Established with
+                    a
+                    vision to empower individuals, families, and businesses on their financial
+                    journey,
+                    MyBank stands as a beacon of trust and stability in the ever-evolving world of
+                    finance.
+                </p>
+                <h3 class="heading">Our Commitment:</h3>
+
+                <p>At MyBank, we believe in the power of financial freedom. Guided by integrity,
+                    innovation,
+                    and a profound dedication to our clients, we provide more than just banking
+                    services; we
+                    deliver personalized solutions tailored to your unique needs. Our unwavering
+                    commitment
+                    to excellence is the cornerstone upon which we build enduring relationships with
+                    our
+                    clients.
+                </p>
+                <p>
+                <h3 class="heading">Our Vision:</h3>
+                <p>
+                    Driven by a vision to redefine banking experiences, we blend cutting-edge
+                    technology
+                    with
+                    traditional values. We strive to be more than just a financial institution; we
+                    aim
+                    to be
+                    your reliable partner, empowering you to achieve your financial goals with
+                    confidence.
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+        <div>
+            <!-- This is Contact page of my bank website  -->
+            <div id="Contact">
+                <h3 class="heading">Contact Us</h3>
+
+                <p>Have questions or need assistance? We're here to help. Reach out to MyBank's
+                    dedicated
+                    team of experts for personalized support and reliable guidance. Your financial
+                    well-being is our top priority, and we are committed to providing you with
+                    exceptional
+                    service.</p>
+
+                <p style="margin-top: 10px;"><b>Customer Support:</b>
+                    For general inquiries, account assistance, or product information, our customer
+                    support
+                    team is available to assist you.
+
+                    Phone: [Your Phone Number]
+                    Email: [Your Email Address]
+                </p>
+                <p>Visit Us:
+                    Feel free to visit our branch for face-to-face assistance and personalized
+                    consultations.
+                    <br>
+                    Address: [Your Branch Address]
+                    <br>
+                    Business Hours:
+                    Monday - Friday: 9:00 AM - 5:00 PM
+                    Saturday: 9:00 AM - 1:00 PM
+                    Sunday: Closed
+                    <br>
+                    Connect Online:
+                    Stay updated and engage with us on social media. Follow MyBank on our official
+                    social
+                    media channels for news, tips, and community events.
+                </p>
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <footer class="footer" style="width: 100%; height: 10%;">
+            <p class="footer__title">MyBank</p>
+            <p>Copyright ©2023</p>
+
+        </footer>
+
+
+
+
+
+</body>
+
+</html>
